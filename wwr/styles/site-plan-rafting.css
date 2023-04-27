@@ -10,10 +10,10 @@ Fonts are separated by a & */
   A42212
   white
   */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: #601064   ;
+  --secondary-color: #7b7fce ;
+  --accent1-color: #94625b;
+  --accent2-color: rgb(87, 157, 119);
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon";
