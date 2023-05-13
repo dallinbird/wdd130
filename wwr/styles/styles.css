@@ -1,5 +1,5 @@
 
-
+/*
 *{
     border: 2px solid rgb(240, 9, 9);
     margin: 0 auto;
@@ -19,7 +19,7 @@ body{
 
 
 header{
-    background-color: #855b07;
+    background-color:#ecb240;
     color:#38c65e;
 }
 
@@ -78,7 +78,7 @@ main section{
 }
 
 #background{
-    background-color: #855b07;
+    background-color: #ecb240;
     height: 725px;
 }
 
