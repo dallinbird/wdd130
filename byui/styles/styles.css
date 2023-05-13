@@ -1,0 +1,38 @@
+
+/*
+* {
+    border: 2px solid rgb(240, 9, 9);
+}
+*/
+a:hover {
+    background-color: steelblue;
+    color: rgb(238, 7, 7);
+}
+
+
+
+nav, footer {
+    background-color: steelblue;
+    color: white; /* color always refers to the text*/
+    padding: 20px 10px;
+}
+
+nav, footer {
+    text-align: center;
+}
+
+body {
+    text-align: center;
+}
+
+
+
+img {
+    width: 80%;
+}
+
+footer p {
+    font-size: 20px;
+    margin: 0 auto;
+}
+
