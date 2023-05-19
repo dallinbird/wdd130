@@ -5,9 +5,17 @@
 }
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Sigmar&display=swap');
+:root{
+--title-font: 'Sigmar', cursive ;
+--site-font: 'Roboto Slab', serif, sans-serif, Lato, Helvetica;
+
+}
+
 body {
     text-align: center;
     margin: 0 auto;
+    font-family: 'sigmar', cursive;
 }
 
 a:hover {
@@ -32,6 +40,7 @@ nav, footer {
 
 h1 {
     margin: 50px 0;
+    font-family: 'Sigmar', cursive;
 }
 
 
