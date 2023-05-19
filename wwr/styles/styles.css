@@ -7,8 +7,25 @@
 }
 */
 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Sigmar&display=swap');
+
+
+:root{
+--head-font: 'Sigmar', cursive, Georgia;
+--body-font: 'Roboto Slab', serif, sans-serif, Lato, Helvetica;
+
+}
+
+
+
 body{
     background-color:whitesmoke;
+    max-width: 1300px;
+    font-family: var(--body-font);
+    font-size: 22px;
+    margin:0;
+    padding: 0;
 }
 
 #content{
@@ -16,7 +33,15 @@ body{
     margin: 0 auto;
 
 }
+#logo_link{
+    padding-top: 5px;
+}
 
+.home-title{
+    font-family: var(--head-font);
+    font-size: 2em;
+
+}
 
 header{
     background-color:#ecb240;
@@ -31,6 +56,7 @@ nav a{
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover{
@@ -66,6 +92,8 @@ h4{
     color: black;
     text-decoration: none;
     margin: 0 auto;
+    font-size: 18px;
+    padding: 15px 30px;
 }
 
 .book:hover, .join:hover{
@@ -75,9 +103,12 @@ h4{
 main section{
     text-align: center;
 }
-
+h2{
+    margin: 0;
+}
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 #background{
@@ -86,7 +117,8 @@ main section{
 }
 
 .msg{
-    background-color: #1a92c2
+    background-color: #1a92c2;
+    padding: 35px;
 }
 
 .msg h2{
@@ -95,12 +127,19 @@ main section{
 
 .msg p{
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer{
     background-color: #1a92c2;
     color: black;
+    padding: 25px 50px;
 
+}
+
+footer .social img{
+    padding-top: 15px;
 }
 
 footer p a:hover{
