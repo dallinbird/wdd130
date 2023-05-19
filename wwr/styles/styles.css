@@ -40,6 +40,7 @@ body{
 .home-title{
     font-family: var(--head-font);
     font-size: 2em;
+    margin-top: 10px;
 
 }
 
@@ -94,6 +95,7 @@ h4{
     margin: 0 auto;
     font-size: 18px;
     padding: 15px 30px;
+    margin-top: 50px;
 }
 
 .book:hover, .join:hover{
@@ -106,6 +108,11 @@ main section{
 h2{
     margin: 0;
 }
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px;
+}
+
 .icon{
     width: 80px;
     padding-top: 10px;
@@ -135,6 +142,7 @@ footer{
     background-color: #1a92c2;
     color: black;
     padding: 25px 50px;
+    margin-top: 200px;
 
 }
 
