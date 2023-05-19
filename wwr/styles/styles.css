@@ -21,7 +21,6 @@
 
 body{
     background-color:whitesmoke;
-    max-width: 1300px;
     font-family: var(--body-font);
     font-size: 22px;
     margin:0 auto;
