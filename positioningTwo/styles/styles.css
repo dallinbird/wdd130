@@ -10,7 +10,8 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     max-width: 400px;
-    
+    justify-content: center;
+    align-content: center;
   }
   .content2 {
     width: 80%;
