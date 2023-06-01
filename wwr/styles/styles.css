@@ -134,6 +134,16 @@ h4{
     color: red;
 }
 
+#home-grid{
+    display: grid;
+    grid-template-columns: repeat(10, ifr);
+}
+
+.rivers-card{
+    grid-column: ;
+    grid-row: ;
+}
+
 main section{
     text-align: center;
 }
@@ -146,9 +156,12 @@ h2{
     margin: 0;
 }
 
+.card-img, .mountains {
+    width: 100%;
+}
+
 .card-img{
-    border: 10px solid rgb(5, 73, 18);
-    
+    border: 10px solid rgb(5, 73, 18);   
 }
 
 .rivers-card, .camping-card, .rapids-card{
