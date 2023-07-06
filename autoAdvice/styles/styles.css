@@ -1,3 +1,96 @@
+
+
 img{
     width: 100px;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lobster+Two:ital@1&family=Roboto&family=Satisfy&display=swap');
+
+
+
+:root{
+    --heading-font: "Lobster Two", "Dancing Script";
+    --paragraph-font: "Satisfy", "Lato", Helvetica, sans-serif;
+
+}
+
+body{
+    margin:0 auto;
+    padding: 0;
+}
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+
+}
+
+header{
+    background-color:rgb(60, 40, 74);
+    color:#38c65e;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav{ 
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-align: center;
+    color: rgb(223, 207, 207);
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover{
+    color: red;
+    background-color: black;
+    text-decoration: underline;
+}
+
+.mainGridbox{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.mainImgBox{
+    grid-column: 1/8;
+    grid-row: 1/5;
+    
+}
+
+.mainImg {
+    width: 100%;
+}
+
+.welcome{
+    grid-column: 1/8;
+    grid-row: 3/5;
+    justify-self: center;
+}
+
+.welcome{
+    padding-bottom: 7%;
+}
+
+.purpose{
+    background-color: rgb(60, 40, 74);
+    grid-column: 2/7;
+    grid-row: 6/8;
+    
+}
+
+.missionStatement{
+    font-family: var(--paragraph-font);
+    color:pink;
 }
