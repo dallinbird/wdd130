@@ -1,14 +1,14 @@
 
 
-img{
-    width: 100px;
-}
+
 
 
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lobster+Two:ital@1&family=Roboto&family=Satisfy&display=swap');
 
-
+img{
+    width: 100px;
+}
 
 :root{
     --heading-font: "Lobster Two", "Dancing Script";
