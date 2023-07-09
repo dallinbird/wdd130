@@ -183,17 +183,38 @@ Sub Page Checklists
     margin: 0 auto;
     display:block;
     width:50%;
-    margin-top: 1%;
+    margin-top: 3%;
     border-radius:15px;
 }
 
-.checklistPageContent{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.listTitle{
+    text-align: center;
+    margin: 0 auto;
+    font-family: var(--heading-font);
+    color: #80180a;
+    font-size: 50px;
 }
 
-.list1{
-    grid-column: 2/3;
+.list{
+    margin: 5% 15%;
+    background-color: rgb(60, 40, 74);
+    border: 2px solid black;
+    padding: 2%;
+    border-radius:15px;
+}
+
+dt{
+    font-family: var(--heading-font);
+    font-size: 23px;
+    color: #9a0adc;
+    padding-top: 15px;
+    text-decoration: underline;
+}
+
+dd{
+    font-family: var(--paragraph-font);
+    font-size: 18px;
+    color: #9a0adc;
 }
 
 footer{
