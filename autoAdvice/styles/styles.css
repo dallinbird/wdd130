@@ -12,7 +12,7 @@ img{
 
 :root{
     --heading-font: "Lobster Two", "Dancing Script";
-    --paragraph-font: "Satisfy", "Lato", Helvetica, sans-serif;
+    --paragraph-font: "Lato", "Satisfy" Helvetica, sans-serif;
 
 }
 
@@ -52,6 +52,7 @@ nav a{
     color: #9a0adc;
     text-decoration: none;
     padding: 35px;
+    font-size: 20px;
 }
 
 nav a:hover{
@@ -173,6 +174,70 @@ nav a:hover{
     color: #80180a;
     background-color: rgb(60, 40, 74);
 }
+
+/***************************************************************************************************************
+Sub Page Calculator
+****************************************************************************************************************/
+
+.calculatorImageGridbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.maths{
+    grid-column:1/4 ;
+    grid-row:1/4 ;
+    width: 100%;
+    z-index: 1;
+}
+
+.calcTitle{
+    font-family: var(--heading-font);
+    color: #9a0adc;
+    grid-column:1/2 ;
+    grid-row:3/4 ;
+    z-index: 2;
+    text-align: center;
+    margin-top: 2.2em;
+    font-size: 80px;
+}
+
+.pageGrid{
+    display:grid ;
+    grid-template-columns: 10% 1fr 10% 1fr 10%;
+}
+
+.formGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:  rgb(60, 40, 74);
+    grid-column: 2/3;
+}
+
+.formLables{
+    color: #9a0adc;
+    font-size: 20px;
+    grid-column: 1/2;
+}
+
+.formInputs{
+    grid-column: 2/3;
+    
+}
+
+.totalsGrid{
+    grid-column: 4/5;
+    background-color:  rgb(60, 40, 74);
+}
+
+.calculationExplanations{
+    background-color:  rgb(60, 40, 74);
+    grid-column: 2/5
+}
+
+
+
 
 /***************************************************************************************************************
 Sub Page Checklists
