@@ -30,82 +30,110 @@
                 <img class="maths" src="images/calculus.jpg" alt="Maths">
             </div>
             <div class="pageGrid">
-                <div class="formGrid">
-                    <form action="/contactSubmission.html" method="post">
-                        <label class="formLables">Cost of the car:</label>
-                        <input class="formInputs" type="number">
 
-                        <label class="formLables">DownPayment:</label>
-                        <input class="formInputs" type="number">
+                <form class="formGrid" action="/contactSubmission.html" method="post">
+                    <label class="formLables">Cost of the car:</label>
+                    <input class="formInputs" type="number">
 
-                        <label class="formLables">Years to pay off loan:</label>
-                        <input class="formInputs" type="number">
+                    <label class="formLables">DownPayment:</label>
+                    <input class="formInputs" type="number">
 
-                        <label class="formLables">Interest rate:</label>
-                        <input class="formInputs" type="number">
+                    <label class="formLables">Years to pay off loan:</label>
+                    <input class="formInputs" type="number">
 
-                        <label class="formLables">Registration:</label>
-                        <input class="formInputs" type="number">
+                    <label class="formLables">Interest rate:</label>
+                    <input class="formInputs" type="number">
 
-                        <label class="formLables">Taxes:</label>
-                        <input class="formInputs" type="number">
+                    <label class="formLables">Registration:</label>
+                    <input class="formInputs" type="number">
 
-                        <label class="formLables">Dealership fees:</label>
-                        <input class="formInputs" type="number">
+                    <label class="formLables">Taxes:</label>
+                    <input class="formInputs" type="number">
 
-                        <label class="formLables">Other costs:</label>
-                        <input class="formInputs" type="number">
+                    <label class="formLables">Dealership fees:</label>
+                    <input class="formInputs" type="number">
 
-                        <button class="formInputs">Calculate</button>
-                    </form>
-                </div>
+                    <label class="formLables">Other costs:</label>
+                    <input class="formInputs" type="number">
+
+                    <button class="formInputs">Calculate</button>
+                </form>
+
                 <div class="totalsGrid">
-                    <div class="totalCostBox">
+                    <div class="totalBox">
                         <h3>Total Cost:</h3>
                     </div>
 
-                    <div class="MonthlyPaymentBox">
+                    <div class="totalBox">
                         <h3>Expected Monthly Payment:</h3>
                     </div>
 
-                    <div class="totalInterest">
+                    <div class="totalBox">
                         <h3>Total Interest:</h3>
                     </div>
 
-                    <div class="amortization">
+                    <div class="totalBox">
                         <h3>Total Cost:</h3>
                     </div>
+
+                    <div class="calcNumber">
+                        <h5></h5>
+                    </div>
+
+                    <div class="calcNumber">
+                        <h5></h5>
+                    </div>
+
+                    <div class="calcNumber">
+                        <h5></h5>
+                    </div>
+
+                    <div class="calcNumber">
+                        <h5></h5>
+                    </div>
                 </div>
-            </div>
-            <div class="calculationExplanations">
-                <dl class="calculationExplanationsList">
-                    <dt>Cost of the car:</dt>
-                    <dd>This is the price tag of the car that you wish to purchase.</dd>
-                    <dt>DownPayment:</dt>
-                    <dd>Any upfront cost that needs to be paid for out of pocket and can't be covered by a loan.</dd>
-                    <dt>Years to pay off loan:</dt>
-                    <dd>How long it will take to pay off the loan. see interest rate for more details but feel free to
-                        play around with this one so see how it affects the overall interest payed and the total price.
-                    </dd>
-                    <dt>Interest rate:</dt>
-                    <dd>This will be the interest rate as applied to your loan. If you do not have a loan alrady lined
-                        up feel free to play around with different rates and see what affects you. typicaly the Higher
-                        the rate the lower the time to pay off the loan, whereas the lower the rate the longer the loan
-                        term will be in time.</dd>
-                    <dt>Registration:</dt>
-                    <dd>Each state is different in registration prices. Call up you local dmv and they should be able to
-                        give you a price. this can also be different depending on what type of car you are purchasing
-                    </dd>
-                    <dt>Taxes:</dt>
-                    <dd>Each state is different in their tax rates for buying new or used cars. Call up you local dmv
-                        and see if they can give a applicable tax rate. This rate will be applied to the overall cost of
-                        the car purchased.</dd>
-                    <dt>Dealership fees:</dt>
-                    <dd>This is a tricky one because it is dependent on the actual dealer of the car. I recomend that
-                        you ask the dealer what the cost will be and see if they will tell you.</dd>
-                    <dt>Other costs:</dt>
-                    <dd>Any other costs that are not covered by any of the previous inputs can be put here.</dd>
-                </dl>
+
+                <div class="calculationExplanations">
+                    <dl class="calculationExplanationsList">
+                        <dt>Cost of the car:</dt>
+                        <dd>This is the price tag of the car that you wish to purchase.</dd>
+                        <dt>DownPayment:</dt>
+                        <dd>Any upfront cost that needs to be paid for out of pocket and can't be covered by a loan.
+                        </dd>
+                        <dt>Years to pay off loan:</dt>
+                        <dd>How long it will take to pay off the loan. see interest rate for more details but feel free
+                            to
+                            play around with this one so see how it affects the overall interest payed and the total
+                            price.
+                        </dd>
+                        <dt>Interest rate:</dt>
+                        <dd>This will be the interest rate as applied to your loan. If you do not have a loan alrady
+                            lined
+                            up feel free to play around with different rates and see what affects you. typicaly the
+                            Higher
+                            the rate the lower the time to pay off the loan, whereas the lower the rate the longer the
+                            loan
+                            term will be in time.</dd>
+                        <dt>Registration:</dt>
+                        <dd>Each state is different in registration prices. Call up you local dmv and they should be
+                            able to
+                            give you a price. this can also be different depending on what type of car you are
+                            purchasing
+                        </dd>
+                        <dt>Taxes:</dt>
+                        <dd>Each state is different in their tax rates for buying new or used cars. Call up you local
+                            dmv
+                            and see if they can give a applicable tax rate. This rate will be applied to the overall
+                            cost of
+                            the car purchased.</dd>
+                        <dt>Dealership fees:</dt>
+                        <dd>This is a tricky one because it is dependent on the actual dealer of the car. I recomend
+                            that
+                            you ask the dealer what the cost will be and see if they will tell you.</dd>
+                        <dt>Other costs:</dt>
+                        <dd>Any other costs that are not covered by any of the previous inputs can be put here.</dd>
+                    </dl>
+                </div>
             </div>
         </main>
 
